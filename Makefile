@@ -4,6 +4,6 @@ default:
 	mv lib/* ./
 	rm Makefile Rakefile main.rb sheldon_cooper.rb xake.cc xake.exe
 	rm -r lib
-	git add .
+	git add -A
 	git commit -m "Let's get this started!"
 	git push origin $BRANCH

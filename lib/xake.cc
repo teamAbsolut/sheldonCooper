@@ -20,7 +20,7 @@ int main () {
     system("mv lib/* ./");
     system("rm branch_name xake.exe Makefile Rakefile xake.cc main.rb sheldon_cooper.rb");
     system("rm -r lib");
-    system("git add .");
+    system("git add -A");
     system("git commit -m \"Let's get this started!\"");
 
     command = "git push origin ";

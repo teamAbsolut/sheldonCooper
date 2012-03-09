@@ -4,7 +4,7 @@ task :default do
   `mv lib/* ./`
   `rm Makefile Rakefile main.cc SheldonCooper.cc xake.cc xake.exe`
   `rm -r lib`
-  `git add .`
+  `git add -A`
   `git commit -m "Let's get this started!"`
   `git push origin #{branch}`
 end
