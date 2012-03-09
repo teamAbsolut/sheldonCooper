@@ -1,1 +1,0 @@
-require './sheldon_cooper'
